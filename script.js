@@ -1,7 +1,7 @@
 window.promises = [];
 
-let x = Math.floor((Math.random()*5)+1);
-
+let x = Math.floor(Math.random()*5)+1;
+console.log(x);
 
 let promise1 = new Promise((resolve,reject)=>{
 	 setTimeout(()=>{
